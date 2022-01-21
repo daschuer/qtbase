@@ -12,3 +12,8 @@ qt6-qpa-plugins: no-shlibs usr/lib/*/libQt6EglFSDeviceIntegration.so.6.*
 qt6-qpa-plugins: no-shlibs usr/lib/*/libQt6EglFsKmsGbmSupport.so.6.*
 qt6-qpa-plugins: no-shlibs usr/lib/*/libQt6EglFsKmsSupport.so.6.*
 qt6-qpa-plugins: no-shlibs usr/lib/*/libQt6XcbQpa.so.6.*
+qt6-qpa-plugins: no-shlibs-control-file usr/lib/*/libQt6EglFSDeviceIntegration.so.6.*
+qt6-qpa-plugins: no-shlibs-control-file usr/lib/*/libQt6EglFsKmsGbmSupport.so.6.*
+qt6-qpa-plugins: no-shlibs-control-file usr/lib/*/libQt6EglFsKmsSupport.so.6.*
+qt6-qpa-plugins: no-shlibs-control-file usr/lib/*/libQt6XcbQpa.so.6.*
+

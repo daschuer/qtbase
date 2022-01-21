@@ -1,1 +1,1 @@
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6Concurrent.so.*
+usr/lib/*/libQt6Concurrent.so.*

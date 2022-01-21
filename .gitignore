@@ -331,3 +331,6 @@ CTestTestfile.cmake
 cmake_install.cmake
 *_autogen
 tst_*.xml
+/debian/.debhelper/
+/obj-x86_64-linux-gnu/
+/debian/debhelper-build-stamp

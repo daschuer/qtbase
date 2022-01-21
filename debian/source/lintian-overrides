@@ -8,3 +8,8 @@ qt6-base source: source-is-missing tests/benchmarks/widgets/graphicsview/qgraphi
 qt6-base source: unpack-message-for-orig * ar failed for */tests/auto/corelib/io/qdir/types/a.a
 qt6-base source: unpack-message-for-orig * ar failed for */tests/auto/corelib/io/qdir/types/b.a
 qt6-base source: unpack-message-for-orig * ar failed for */tests/auto/corelib/io/qdir/types/c.a
+
+#
+qt6-base source: source-is-missing examples/xml/htmlinfo/youtube_com.html line length is 740 characters (>512)
+qt6-base source: source-is-missing tests/testserver/apache2/testdata/www/htdocs/rfcs/rfc2616.html line length is 298 characters (>256)
+

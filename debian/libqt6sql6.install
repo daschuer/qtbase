@@ -1,1 +1,1 @@
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6Sql.so.*
+usr/lib/*/libQt6Sql.so.*

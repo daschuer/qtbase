@@ -1,9 +1,8 @@
 Source: qt6-base
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Patrick Franz <deltaone@debian.org>
-Build-Depends: cmake (>= 3.18~),
-               debhelper-compat (= 13),
+Maintainer: Daniel Schürmann <daschuer@mixxx.org>
+Build-Depends: cmake,
+               debhelper-compat (= 12),
                dh-exec,
                firebird-dev [kfreebsd-any linux-any],
                libatspi2.0-dev,
@@ -29,7 +28,6 @@ Build-Depends: cmake (>= 3.18~),
                liblttng-ust-dev [linux-any],
                libmariadb-dev-compat,
                libmd4c-dev,
-               libmd4c-html0-dev,
                libmtdev-dev [linux-any],
                libpcre2-dev,
                libpng-dev,
@@ -73,7 +71,7 @@ Build-Depends: cmake (>= 3.18~),
                pkg-kde-tools (>= 0.15.17~),
                unixodbc-dev,
                zlib1g-dev,
-Standards-Version: 4.6.0
+Standards-Version: 4.5.0
 Section: libs
 Homepage: https://www.qt.io/developers/
 Rules-Requires-Root: no
